@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
-from api_version.App.db import get_db
-from api_version.App.models import Magazzino, Item, ItemCreate, MagazzinoCreate, ItemResponse, MagazzinoResponse, MagazzinoUpdate
+from App.db import get_db
+from App.models import Magazzino, Item, ItemCreate, MagazzinoCreate, ItemResponse, MagazzinoResponse, MagazzinoUpdate
 import uvicorn
 
 
