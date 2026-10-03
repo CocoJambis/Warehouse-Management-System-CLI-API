@@ -1,7 +1,7 @@
 from sqlalchemy import Column, String, Integer, create_engine
 from sqlalchemy.orm import declarative_base
 from pydantic import BaseModel
-from db import engine
+from api_version.App.db import engine
 
 Base = declarative_base()
 
